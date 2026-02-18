@@ -1,7 +1,6 @@
 %-------------------------
 % Resume in LaTeX
-% Author: Matheu Arenivas
-% 
+% Author: Adapted by Assistant
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -30,7 +29,7 @@
 % Custom commands for section headers and content
 \titleformat{\section}{
   \scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-1pt}]
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
@@ -54,7 +53,7 @@
 
 
 % Reduce spacing between items in itemize environments
-\setlist[itemize]{itemsep=0pt, topsep=6pt, parsep=1pt, partopsep=-1pt}
+\setlist[itemize]{itemsep=4pt, topsep=6pt, parsep=1pt, partopsep=-1pt}
 
 % Tighten tabular rows (used in \resumeSubheading)
 \renewcommand{\arraystretch}{0.95}
@@ -77,92 +76,70 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Arizona State University}{August 2022 -- May 2026}
-      {Bachelor of Science in Computer Science (Software Engineering)}{Tempe, AZ}
+      {Bachelor of Science in Computer Science}{Tempe, AZ}
     \resumeSubheading
-      {Relevant Coursework and Certifications}{} 
-      {Data Structures and Algorithms, Operating Systems, Object Oriented Programming, UI/UX Design}{}
+      {Coursework and Certifications}{} 
+      {Data Structures and Algorithms, Database Management, Object Oriented Programming, UI/UX Design}{}
   \resumeSubHeadingListEnd
 
   %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
 \resumeSubHeadingListStart
-    \resumeItem{\textbf{Languages \& Tools:} Java, C/C\#/C++, Python, JavaScript, TypeScript, SQL, Bash, GitHub, Figma, Jira}
-    \resumeItem{\textbf{Frameworks \& Libraries::} React.js, Vue.js, Node.js, Next.js, Tailwind CSS, Flask}
-    \resumeItem{\textbf{Databases \& DevOps:} Azure, AWS, ElasticSearch, PostgreSQL, mySQL, Docker, Kubernetes}
+    \resumeItem{\textbf{Languages \& Tools:} Java, Rust, C/C\#/C++, Python, JavaScript, TypeScript, SQL, Bash, Git, Figma, Jira}
+    \resumeItem{\textbf{Frameworks \& Libraries:} React.js, Vue.js, Node.js, Next.js, Tailwind CSS, Flask}
+    \resumeItem{\textbf{Databases \& DevOps:} AWS, ElasticSearch, PostgreSQL, MySQL, Docker, Kubernetes}
 \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
 
-    \resumeSubheading
-      {Software Engineer Intern}{June 2025 -- August 2025}
-      {Swift Transportation \scriptsize\textbf{$|$ JavaScript, VueJS, C\#, ASP.NET, ElasticSearch}}{Phoenix, AZ}
-    \resumeItemListStart
-      \resumeItem{Incoming Summer 2025 Mobile App Development}
-    \resumeItemListEnd
+\resumeSubheading
+  {Software Engineer}{August 2025 -- Present}
+  {Knight-Swift Transportation \scriptsize\textbf{$|$ JavaScript, VueJS, C\#, .NET, ElasticSearch, Git, Agile Methodologies}}{Phoenix, AZ}
+\resumeItemListStart
+  \resumeItem{Contribute to cross-functional application teams with a primary focus on user-facing frontend solutions.}
+  \resumeItem{Collaborate with fellow software engineers to streamline API consumption, ensuring smooth data flow between distributed systems.}
+  \resumeItem{Leverage Agile practices to deliver iterative updates, improve sprint velocity, and reduce feature delivery time.}
+\resumeItemListEnd
 
 \resumeSubheading
-  {Software Engineer}{March 2025 -- Present}
-  {Interplanetary Initiative Lab \scriptsize\textbf{$|$ C++, JavaScript, CesiumJS}}{Tempe, AZ}
-  \resumeItemListStart
-    \resumeItem{Built an interactive 3D visualization platform using \textbf{CesiumJS} and \textbf{JavaScript} to analyze real-time atmospheric flight data with dynamic rendering and altitude-based insights.}
-    \resumeItem{Engineered a \textbf{C++} flash data retrieval system for embedded devices, featuring serial communication, progress tracking, and efficient memory management.}
-    \resumeItem{Collaborated in an \textbf{Agile} environment, using \textbf{Jira} to manage sprints, assign tasks, and coordinate with cross-functional hardware and software teams.}
-  \resumeItemListEnd
-
+  {Software Engineer Intern}{August 2025 -- Present}
+  {General Dynamics (Capstone Project) \scriptsize\textbf{$|$ Rust, Git, Agile Methodologies}}{Tempe, AZ}
+\resumeItemListStart
+  \resumeItem{Developed a high-performance \textbf{Rust}-based web server and packet sniffer, enabling efficient low-level network monitoring and data analysis.}
+  \resumeItem{Implemented safe concurrency patterns in \textbf{Rust} to handle multiple packet streams without data loss or race conditions.}
+  \resumeItem{Optimized memory usage and throughput for network data capture, improving reliability under heavy traffic loads.}
+    \resumeItem{Collaborated on version control workflows with \textbf{Git} and \textbf{Jira}, ensuring code quality, traceability, and team-wide consistency.}
+\resumeItemListEnd
 
 \resumeSubheading
-  {Software Engineer}{August 2024 -- Present}
-  {Engineering Projects in Community Service \scriptsize\textbf{$|$ Python, Flask, JavaScript, ReactJS}}{Tempe, AZ}
-  \resumeItemListStart
-    \resumeItem{Contributing to the development of an autonomous wildfire drone detection and mapping system for real-time \newline environmental monitoring to aide those fighting the wildfires and provide efficient data.}
-    \resumeItem{Developed a responsive frontend interface in \textbf{ReactJS} to display live wildfire detections powered by \textbf{YOLOv5}, \newline a Machine Learning model.}
-    \resumeItem{Designed and implemented the system architecture, creating \textbf{UML/Class} diagrams and integrating the Machine \newline Learning model backend via \textbf{Flask} APIs.}
-  \resumeItemListEnd
-
-
-    \resumeSubheading
-      {Team Lead Manager}{November 2020 -- September 2021}
-      {Chick-fil-A \scriptsize\textbf{$|$ Team Management, Organization}}{Phoenix, AZ}
-    \resumeItemListStart
-      \resumeItem{Oversaw \textbf{team management} by scheduling and conducting \textbf{training sessions} for new employees.}
-      \resumeItem{Improved efficiency by optimizing staff placement during peak hours and maintaining health and safety standards.}
-    \resumeItemListEnd
-
+  {Software Engineer Intern}{June 2025 -- August 2025}
+  {Knight-Swift Transportation \scriptsize\textbf{$|$ JavaScript, VueJS, C\#, .NET, ElasticSearch, DBeaver}}{Phoenix, AZ}
+\resumeItemListStart
+  \resumeItem{Engineered an interactive route visualization tool with \textbf{VueJS}, integrating geospatial data overlays to enhance fleet operations.}
+  \resumeItem{Designed and executed regression and functional test suites, improving system reliability and ensuring production readiness across enterprise platforms.}
+\resumeItemListEnd
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
 \section{Projects}
 \resumeSubHeadingListStart
-  \resumeCompactProjectHeading
-    {Hygieia}{JavaScript/TypeScript, React Native, Supabase, PostreSQL, OAuth, Python}
-  \resumeItemListStart
-    \resumeItem{Developed a comprehensive health and fitness app using \textbf{React Native} with a responsive design that integrates sleep tracking via \textbf{Oura Ring API}.}
-
-    \resumeItem{Implemented full-stack architecture with \textbf{PostgreSQL} database, user authentication via \textbf{OAuth}, and custom Row Level Security policies}
-
-    \resumeItem{Created data visualization components for nutrition tracking, sleep analysis, and fitness metrics using real-time charts}
-
-    \resumeItem{Built intelligent features including a nutrition database integration \textbf{USDA API}, personalized meal recommendations, and sleep quality predictions}
-  \resumeItemListEnd
 
   \resumeCompactProjectHeading
-    {Wall-E}{Arduino, ESP32, C++, Sensors}
+    {FireFlyt}{Arduino, C++, JavaScript, Python, Git, Lean Principles}
   \resumeItemListStart
-    \resumeItem{Developed a real-life version of Wall-E using \textbf{C++}, a \textbf{Arduino} library for mechanics.}
-    \resumeItem{}
-    \resumeItem{}
+    \resumeItem{Built an autonomous drone system to detect, localize, and map active wildfires using onboard sensors and real-time data processing.}
+    \resumeItem{Led a team of software engineers to design and deploy a \textbf{Next.js} web dashboard providing real-time visualization of drone location, wildfire boundaries, and sensor readings.}
+    \resumeItem{Integrated frontend and backend systems via \textbf{RESTful APIs} to enable seamless real-time updates and user interaction.}
   \resumeItemListEnd
 
-  \resumeCompactProjectHeading
-    {ClimateChange}{Javascript, python}
-  \resumeItemListStart
-    \resumeItem{}
-    \resumeItem{}
-    \resumeItem{}
+ \resumeCompactProjectHeading
+  {Interplanetary Initiative Lab \scriptsize\textbf{$|$ C++, JavaScript, CesiumJS, Git, Agile Methodologies}}
+\resumeItemListStart
+  \resumeItem{Developed an interactive \textbf{CesiumJS}-based 3D visualization platform to model atmospheric flight trajectories with dynamic altitude-driven rendering.}
+  \resumeItem{Implemented a robust \textbf{C++} flash data retrieval system for embedded devices, featuring serial communication, progress feedback, and optimized memory utilization.}
   \resumeItemListEnd
-
 \resumeSubHeadingListEnd
 
 \end{document}
